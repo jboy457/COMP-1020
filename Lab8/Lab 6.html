@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html><head>
+</head>
+<body style="color: #202122;">
+<h1 id="comp-1020-lab-8" style="font-family: Helvetica, Arial, sans-serif; font-size: x-large; font-weight: bold; text-align: center; width: 100%; padding: 12px; background-color: #4c7898; color: #faebd7; margin: 0; border-bottom: thin solid;" align="center" width="100%" bgcolor="rgb(76, 120, 152)">COMP 1020 Lab 8</h1>
+<h2 id="material-covered" style="font-family: Helvetica, Arial, sans-serif; font-size: large; font-weight: bold; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4c7898;">Material covered:</h2>
+<ul>
+<li>Recursion</li>
+</ul>
+<h2 id="preparation" style="font-family: Helvetica, Arial, sans-serif; font-size: large; font-weight: bold; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4c7898;">Preparation:</h2>
+<p>Ensure you are up-to-date with all in-class material, from attending class and/or viewing the recordings. You should have read the lab before your scheduled lab time.</p>
+<h2 id="during-the-lab" style="font-family: Helvetica, Arial, sans-serif; font-size: large; font-weight: bold; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4c7898;">During the lab:</h2>
+<p>You should complete as much of the lab as you are able during the scheduled lab time. Do not leave the lab meeting until you are finished, or until the scheduled lab ends. You may then complete the activities on your own time. Note that you are <em>not expected</em> to finish during the lab.</p>
+<p>During the lab, you can ask your demonstrator for help. You can also speak to other students in the lab, and help each other with the exercises. After your scheduled lab ends, you may discuss any issues you have completing the lab in the UMLearn discussion forums.</p>
+<h2 id="exercise-1-find-the-maximum" style="font-family: Helvetica, Arial, sans-serif; font-size: large; font-weight: bold; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4c7898;">Exercise 1: Find the maximum</h2>
+<p>Download the program <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">Lab8Ex1.java</code>. The program is to print the elements of an array of integers and then find the maximum value in the array of integers. Unfortunately, the findMax function is broken. Fix the error(s) without changing the nature of the function. That is, <strong>the function must still be recursive, and use no loops</strong>.</p>
+<p>Be careful: your solution should work no matter which value is the smallest!</p>
+<h2 id="exercise-2-print-the-list-backwards" style="font-family: Helvetica, Arial, sans-serif; font-size: large; font-weight: bold; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4c7898;">Exercise 2: Print the list, backwards</h2>
+<p>The existing <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">printList</code> function uses recursion to print the contents of the list. Write (and call) a <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">printListBackwards</code> function that will print the list backwards; that is, from the last item to the first item, using recursion.</p>
+<h2 id="exercise-3-power-of-three" style="font-family: Helvetica, Arial, sans-serif; font-size: large; font-weight: bold; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4c7898;">Exercise 3: Power-of-Three</h2>
+<p>A number like 81 is an integer power of three (3<sup>4</sup>) but 30 is not. There are a number of different ways of determining if a number is an integer power of three, such as by using logarithms or other mathematical tricks. But there is also a simple inelegant solution: keep dividing the number by 3, until you get a number that is not evenly divisible by 3 (then the original number is not a power of three) or until you reach 1 (then the original number is a power of three).</p>
+<p>For this exercise, download the program <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">Lab8Ex3.java</code> and complete the <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">isPowerOfThree</code> function to use the inelegant solution to determine if <em>n</em> is a power of three, using recursion. Again, <strong>the function must be recursive, and use no loops</strong>.</p>
+<h3 id="note" style="font-size: medium; font-variant: small-caps; text-decoration: underline; color: #408;">Note:</h3>
+<p>If you want to implement the solution using iteration first, you may then find it easier to write a recursive version.</p>
+<h2 id="exercise-4-string-triangle" style="font-family: Helvetica, Arial, sans-serif; font-size: large; font-weight: bold; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #4c7898;">Exercise 4: String triangle</h2>
+<p>Download the program <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">Lab8Ex4.java</code>. The program is supposed to use iteration to print the contents of a String in triangular form, as shown below for the string <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">"*"</code>. There will be as many lines of output as the parameter <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">depth</code>. Modify the program so that the iterative version generates the desired solution. Note that the <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">printTriangle</code> function is passed the string to be printed; the function must work correctly if a different string is passed as a parameter.</p>
+<p>Once you have it working, create a <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">printTriangleRecursive</code> function that uses recursion instead of iteration. Once more, <strong>the function must be recursive, and use no loops</strong>. It should also have the same parameters as the original <code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: #ffffe8; white-space: pre-wrap;" bgcolor="#FFFFE8">printTriangle</code>.</p>
+<pre style="background-color: #e0f8e0; border-top: dotted thin black; border-bottom: dotted thin black; margin-right: 20px; margin-left: 20px; padding: 1em 0.5em 1em 0.5em;" bgcolor="#E0F8E0"><code style="font-family: Consolas, Courier, 'Courier New', monospace; background-color: transparent; white-space: pre-wrap;">*
+**
+***
+****
+*****
+******
+*******
+********
+*********</code></pre>
+<p>Ensure your recursive solution has the correct number of lines of output.</p>
+<h3 id="note-1" style="font-size: medium; font-variant: small-caps; text-decoration: underline; color: #408;">Note:</h3>
+<p>If you would like to separate your recursive solution into a non-recursive helper function that calls a recursive function, you may. But there <em>is</em> a solution without it!</p>
+</body></html>

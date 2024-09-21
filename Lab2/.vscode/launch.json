@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Lab2Ex3",
+            "request": "launch",
+            "mainClass": "Lab2Ex3",
+            "projectName": "Lab2_d3c8b709"
+        },
+        {
+            "type": "java",
+            "name": "Lab2Ex2",
+            "request": "launch",
+            "mainClass": "Lab2Ex2",
+            "projectName": "Lab2_d3c8b709"
+        },
+        {
+            "name": "Simple Debug (Launch) - Java",
+            "type": "java",
+            "request": "launch",
+            "console": "internalConsole",
+            "stepFilters": {
+                "skipClasses": [
+                    "java.*",
+                    "$JDK",
+                    "junit.*",
+                    "Thread"
+                ],
+                "skipSynthetics": false,
+                "skipStaticInitializers": false,
+                "skipConstructors": false
+            }
+        }
+    ]
+}

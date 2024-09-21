@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LinkedItemPileBasicTest",
+            "request": "launch",
+            "mainClass": "LinkedItemPileBasicTest",
+            "projectName": "TaiwoAdejareA4_9679530f"
+        },
+        {
+            "type": "java",
+            "name": "HoardersBasicTest",
+            "request": "launch",
+            "mainClass": "HoardersBasicTest",
+            "projectName": "TaiwoAdejareA4_9679530f"
+        },
+        {
+            "type": "java",
+            "name": "GameCollection",
+            "request": "launch",
+            "mainClass": "GameCollection",
+            "projectName": "TaiwoAdejareA4_9679530f"
+        },
+        {
+            "name": "Simple Debug (Launch) - Java",
+            "type": "java",
+            "request": "launch",
+            "console": "internalConsole",
+            "stepFilters": {
+                "skipClasses": [
+                    "java.*",
+                    "$JDK",
+                    "junit.*",
+                    "Thread"
+                ],
+                "skipSynthetics": false,
+                "skipStaticInitializers": false,
+                "skipConstructors": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "A3",
+            "request": "launch",
+            "mainClass": "A3",
+            "projectName": "TaiwoAdejareA3_9679530e"
+        },
+        {
+            "name": "Simple Debug (Launch) - Java",
+            "type": "java",
+            "request": "launch",
+            "console": "internalConsole",
+            "stepFilters": {
+                "skipClasses": [
+                    "java.*",
+                    "$JDK",
+                    "junit.*",
+                    "Thread"
+                ],
+                "skipSynthetics": false,
+                "skipStaticInitializers": false,
+                "skipConstructors": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+[Name: Olivia Williams, Access Level: 1
+Name: Noah Brown, Access Level: 1
+Name: Ava Jones, Access Level: 2
+Name: Ethan Garcia, Access Level: 2
+Name: Lucas Moore, Access Level: 3
+Name: Liam Smith, Access Level: 4
+Name: Emma Johnson, Access Level: 1]
+
+[Galaxara-IX, Starithia-III, Asterion-X2]
+
+[Artifact: NEBULA NOODLE NET was found on planet Asterion-X2 during Galactic Cycle A6-010.
+Currently stored in Sector D-20 - Unit 11 requiring security clearance level 2.
+Description: An elaborate network of fine silver filaments continuously shifts and flows into new configurations. When activated the net seems to mimic the constellations of the night sky possibly used for celestial navigation or as a star map. The delicate strands appear fragile yet are impervious to any physical force hinting at advanced alien technology.
+
+Artifact: STARSTRUCK SPECTACLES was found on planet Starithia-III during Galactic Cycle 3Y-517.
+Currently stored in Sector F-07 - Unit 10 requiring security clearance level 1.
+Description: Elegant eyewear with lenses that reveal cosmic energy patterns when worn. Believed to have been used for studying astral phenomena or for interstellar navigation. The frames adjust to fit any wearer suggesting a highly adaptive design.
+
+Artifact: WORMHOLE WOBBLE WAND was found on planet Galaxara-IX during Galactic Cycle 4X-142.
+Currently stored in Sector H-21 - Unit 7 requiring security clearance level 3.
+Description: A slender wand that vibrates subtly in the presence of spatial anomalies. Tests have shown it can slightly alter local spacetime fabric; handle with care. Its origin remains a mystery fueling speculations about its use in wormhole creation or manipulation.]
